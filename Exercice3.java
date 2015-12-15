@@ -15,8 +15,17 @@ class Exercice3 {
         
 	}
 
-    public static void big(int A, int B) {
-        int C = (A>=B) ? A : B;
-        System.out.println(C + " is the bigger number.");
+    public static void big(int A, int B, int C, int D) {
+        int max = A;
+        if (B>max) {
+            max = B;
+        }
+        if (C>max) {
+            max = C;
+        }
+        if (D>max) {
+            max = D;
+        }
+        System.out.println(max + " is the bigger number.");
     }
 }
