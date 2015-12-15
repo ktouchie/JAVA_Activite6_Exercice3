@@ -5,13 +5,19 @@ class Exercice3 {
         
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Enter a value for X:");
+        System.out.println("Enter a number:");
+        int w = sc.nextInt();
+        
+        System.out.println("Enter another number:");
         int x = sc.nextInt();
         
-        System.out.println("Enter a value for Y:");
+        System.out.println("Enter yet another number:");
         int y = sc.nextInt();
         
-        big(x,y);
+        System.out.println("Enter one more number:");
+        int z = sc.nextInt();
+        
+        big(w,x,y,z);
         
 	}
 
